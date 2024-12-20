@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cheddarbowl Fantasy Football League</title>
+    <!-- Load Chart.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h1>Welcome to the Cheddarbowl Fantasy Football League</h1>
+    <p>Stats, charts, and more coming soon!</p>
+    <h1>Team Performance</h1>
+    <canvas id="myChart" width="400" height="200"></canvas>
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
